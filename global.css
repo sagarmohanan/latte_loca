@@ -1,0 +1,508 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Noto+Sans+Sundanese&family=Noto+Sans+Syriac+Eastern:wght@300&family=Noto+Serif+Khitan+Small+Script&family=Poppins:ital,wght@0,400;0,500;0,600;1,600&family=Roboto:wght@100;300;400;500;700&family=Rubik:ital,wght@0,400;0,600;1,400;1,500&display=swap');
+
+
+ *{
+    font-family: 'Roboto', sans-serif;
+    
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    margin: 0;
+   padding: 0;
+ }
+
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    transition: 0.2s;
+ }
+
+ body{
+   
+    background-color: rgb(10, 10, 10);
+ }
+
+ .heading{
+   text-align: center;
+   color: #fff;
+   text-transform: uppercase;
+   padding-bottom: 3.5rem;
+   font-size: 4rem;
+   transition: 0.2s;
+
+ }
+
+ .heading span{
+   color: #fff;
+   text-transform: uppercase;
+ }
+ .imglogo2{
+   height: 100%;
+   width: 100%;
+ }
+
+ .header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;left: 0; right: 0;
+    z-index: 950;
+    font-size: 15px;
+    background-color: rgb(5, 5, 5);
+    transition: 0.2s;
+   
+   
+ }
+ .navbar a{
+    text-decoration: none;
+    color: grey;
+     
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    
+ }
+ .navbar a:hover{
+    
+    color: white;
+    font-size: 18px;
+ }
+ .navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 20px;
+    
+ }
+ .icons:hover{
+    font-size: 16px;
+ }
+
+ .home{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background: url(./wallpaper\ 3.jpeg) no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+   .home .content{
+      max-width: 60rem;
+   }
+
+   .home .content h3{
+      font-size: 6rem;
+      text-transform: uppercase;
+      color: #fff;
+   }
+ 
+   section{
+       padding: 2rem 7%;
+   }
+   
+ 
+
+   
+.btn1{
+   color: #fff;
+   font-weight: bold;
+   font-size: 1.5rem;
+   background-color: rgb(0, 0, 0);
+   width: 140px;
+   height: 30px;
+   border-radius: 4rem;
+}   
+   .btn1:hover{
+      transform: scale(1.2);
+   }
+   .container1 {
+      display: flex;
+      align-items: center;
+    }
+    
+    .contentimg {
+      
+      float: left;
+      width:90%;
+      height: 6%;
+      margin-top: 4%;
+       
+      
+    }
+    
+    .content {
+      padding: 20px;
+      font-weight: lighter;
+      font-size: 2rem;
+      line-height: 1.8;
+      color: #eee;
+      margin-top: 8%;
+    }
+    .about{
+      text-align: center;
+      color: white;
+      font-size: 35px;
+      margin-top: 8%;
+    }
+    .para1{
+      font-size: 16px;
+    }
+ 
+ 
+
+ .home .content p{
+   font-size: 2rem;
+   font-weight: lighter;
+   line-height: 1.8;
+   padding: 1rem 0;
+   color: #eee;
+   margin-top: 4%;
+}
+.btn2{
+   color: #000;
+   font-weight: bold;
+   font-size: 1.5rem;
+   background-color: white;
+   width: 140px;
+   height: 30px;
+   border-radius: 4rem;
+}
+.btn2:hover{
+   transform: scale(1.1);
+}
+
+.menu1{
+   text-align: center;
+      color: white;
+      font-size: 35px;
+      margin-top: 8%
+}
+
+ 
+ .card-row {
+   display: flex;
+   justify-content: space-between;
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 20px;
+   column-gap: 30px;
+   max-height: 700px;
+   
+   
+ }
+ 
+ .card {
+   flex: 1;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 20px;
+   margin: 10px;
+   box-shadow: 0 2px 4px rgb(19, 18, 18);
+   transition: 0.2s;
+   
+   
+ }
+ .cardimage{
+   height: 200px;
+   width: 150px;
+   margin-left: -5px;
+ }
+ 
+ .card h2 ,p {
+   margin-top: 0;
+   text-align: center;
+ }
+ 
+ .card:hover{
+   transform: translateY(-10px);
+ }
+
+ .btn3{
+   color: #fcf9f9;
+   font-weight: bold;
+   font-size: 1.5rem;
+   background-color: rgb(5, 5, 5);
+   width: 140px;
+   height: 30px;
+   
+   margin-left: 1px;
+ }
+
+ .btn3:hover{
+   background-color: rgb(18, 158, 29);
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   background-color: #000;
+   padding-bottom: 100px;
+ }
+ 
+ #contact {
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .section-header {
+   text-align: center;
+   margin: 0 auto;
+   padding: 40px 0;
+   font: 300 60px 'Oswald', sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+ }
+ 
+ .contact-wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding: 20px;
+   position: relative;
+   max-width: 840px;
+ }
+ 
+ /* Left contact page */
+ .form-horizontal {
+   /*float: left;*/
+   max-width: 400px;
+   font-family: 'Lato';
+   font-weight: 400;
+ }
+ 
+ .form-control, 
+ textarea {
+   max-width: 400px;
+   background-color:black;
+   color: black;
+   letter-spacing: 1px;
+   color: red;
+ }
+ 
+ .send-button {
+   margin-top: 15px;
+   height: 34px;
+   width: 400px;
+   overflow: hidden;
+   transition: all .2s ease-in-out;
+ }
+ 
+ .alt-send-button {
+   width: 400px;
+   height: 34px;
+   transition: all .2s ease-in-out;
+ }
+ 
+ .send-text {
+   display: block;
+   margin-top: 10px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-align: center;
+   margin-top: 8px;
+   
+ }
+ 
+ 
+ 
+ 
+ /* Begin Right Contact Page */
+ .direct-contact-container {
+   max-width: 400px;
+ }
+ 
+ /* Location, Phone, Email Section */
+ .contact-list {
+   list-style-type: none;
+   margin-left: -30px;
+   padding-right: 20px;
+ }
+ 
+ .list-item {
+   line-height: 4;
+   color: #aaa;
+ }
+ 
+ .contact-text {
+   font: 300 18px 'Lato', sans-serif;
+   letter-spacing: 1.9px;
+   color: #bbb;
+ }
+ 
+ .place {
+   margin-left: 62px;
+ }
+ 
+ .phone {
+   margin-left: 56px;
+ }
+ 
+ .gmail {
+   margin-left: 53px;
+ }
+ 
+ .contact-text a {
+   color: #bbb;
+   text-decoration: none;
+   transition-duration: 0.2s;
+ }
+ 
+ .contact-text a:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ 
+ /* Social Media Icons */
+ .social-media-list {
+   position: relative;
+   font-size: 22px;
+   text-align: center;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+ }
+ 
+ .social-media-list li a {
+   color: #fff;
+ }
+ 
+ .social-media-list li {
+   position: relative; 
+   display: inline-block;
+   height: 60px;
+   width: 60px;
+   margin: 10px 3px;
+   line-height: 60px;
+   border-radius: 50%;
+   color: #fff;
+   background-color: rgb(27,27,27);
+   cursor: pointer; 
+   transition: all .2s ease-in-out;
+ }
+ 
+ .social-media-list li:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+   border-radius: 50%;
+   opacity: 0;
+   box-shadow: 0 0 0 1px #fff;
+   transition: all .2s ease-in-out;
+ }
+ 
+ .social-media-list li:hover {
+   background-color: #fff; 
+ }
+ 
+ .social-media-list li:hover:after {
+   opacity: 1;  
+   transform: scale(1.12);
+   transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+ }
+ 
+ .social-media-list li:hover a {
+   color: #000;
+ }
+ 
+ .copyright {
+   font: 200 14px 'Oswald', sans-serif;
+   color: #555;
+   letter-spacing: 1px;
+   text-align: center;
+ }
+ 
+ hr {
+   border-color: rgba(255,255,255,.6);
+ }
+ 
+ 
+ @media screen and (max-width: 850px) {
+   .contact-wrapper {
+     display: flex;
+     flex-direction: column;
+   }
+   .direct-contact-container, .form-horizontal {
+     margin: 0 auto;
+   }  
+   
+   .direct-contact-container {
+     margin-top: 60px;
+     max-width: 300px;
+   }    
+   .social-media-list li {
+     height: 60px;
+     width: 60px;
+     line-height: 60px;
+   }
+   .social-media-list li:after {
+     width: 60px;
+     height: 60px;
+     line-height: 60px;
+   }
+ }
+ 
+ @media screen and (max-width: 569px) {
+ 
+   .direct-contact-container, .form-wrapper {
+     float: none;
+     margin: 0 auto;
+   }  
+   .form-control, textarea {
+     
+     margin: 0 auto;
+   }
+  
+   
+   .name, .email, textarea {
+     width: 280px;
+   } 
+   
+   .direct-contact-container {
+     margin-top: 60px;
+     max-width: 280px;
+   }  
+   .social-media-list {
+     left: 0;
+   }
+   .social-media-list li {
+     height: 55px;
+     width: 55px;
+     line-height: 55px;
+     font-size: 2rem;
+   }
+   .social-media-list li:after {
+     width: 55px;
+     height: 55px;
+     line-height: 55px;
+   }
+   
+ }
+ 
+ @media screen and (max-width: 410px) {
+   .send-button {
+     width: 99%;
+   }
+ }
